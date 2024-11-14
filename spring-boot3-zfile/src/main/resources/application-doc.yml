@@ -1,0 +1,18 @@
+springdoc:
+  swagger-ui:
+    tags-sorter: alpha
+  group-configs:
+    - group: "bis"
+      paths-to-match:
+        - "/**"
+      packages-to-scan:
+        - vip.file
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+  # 开启授权列表
+  basic:
+    enable: true
+    username: admin
+    password: 123456
